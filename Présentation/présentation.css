@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contain {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px; 
+}
+
+.return {
+  width: 30px;
+  height: 30px; 
+}
+
+.me {
+  width: 493px;
+  height: 464px;
+}
+
+.description {
+  width: 500px; 
+  height: 100px; 
+  text-align: justify; 
+  margin-left: 50px;
+  font-size: 20px; 
+}
+
+footer {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px; 
+}
+
+p {
+  margin-left: 10px; 
+
+}

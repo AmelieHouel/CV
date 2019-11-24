@@ -52,7 +52,7 @@ img {
 /* Présentation */
 
 .containerPrésentation {
-  background-color: #FCF7F8;
+  background-color: #FFF7AE;
   grid-column: 2;
   grid-row: 1;
   display: flex;
@@ -64,7 +64,7 @@ img {
 }
 
 .containerPrésentation:hover {
-  background-color: rgb(250, 213, 220);
+  background-color: rgb(255, 242, 130);
 
 }
 
