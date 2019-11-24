@@ -61,6 +61,8 @@ img {
   justify-content: center;
   transition-property: background-color;
   transition-duration: 0.2s;
+  text-decoration: none; 
+  color: black; 
 }
 
 .containerPrésentation:hover {

@@ -14,10 +14,7 @@ h1 {
   margin-top: 180px; 
 }
 
-.return {
-  width: 30px;
-  height: 30px; 
-}
+
 
 .me {
   width: 493px;
@@ -32,15 +29,27 @@ h1 {
   font-size: 20px; 
 }
 
-footer {
+.containerReturn {
   display: flex;
   flex-direction: column; 
   justify-content: center;
   align-items: center;
   margin-top: 130px; 
+  text-decoration: none; 
+}
+
+.return {
+  width: 30px;
+  height: 30px; 
+  transition-property: width height;
+  transition-duration: 0.2s;
+}
+
+.return:hover {
+  width: 40px;
+  height: 40px;
 }
 
 p {
-  margin-left: 10px; 
-
+  color:black;
 }
